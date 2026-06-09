@@ -12,8 +12,8 @@
 name: Scheduled Integration Test
 
 on:
-  schedule:
-    - cron: '0 * * * *'   # hourly heartbeat; actual cadence set by user input
+  #schedule:
+  # - cron: '0 * * * *'   # hourly heartbeat; actual cadence set by user input
   workflow_dispatch:
     inputs:
       check_interval:
